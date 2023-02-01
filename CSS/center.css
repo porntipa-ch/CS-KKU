@@ -1,0 +1,38 @@
+.textbox h3.text {
+    border-left: 3px solid blue;
+    padding-left: 2%;
+}
+
+.textbox p.maintext {
+    font-size: 18px;
+    text-indent: 5%;
+}
+
+.textbox p.topic_center {
+    color: blue;
+    font-size: 120%;
+}
+
+ul.center {
+    display: block;
+}
+
+li.maintext {
+    list-style-type: circle;
+}
+
+.lab {
+    max-width: 30%;
+    width: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+@media all and (max-width: 968px) {
+    .textbox p {
+        font-size: 16px;
+    }
+    img {
+        width: 100%;
+    }
+}

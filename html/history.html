@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../images/analytics.png">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/hisstory.css">
+    <title>CS@KKU</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <!-- menu -->
+    <nav>
+        <div class="logo">
+            <span style="color: #D2B363;">CS</span>@KKU
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="../index.html">หน้าแรก</a></li>
+            <li>
+                <label for="btn-2" class="show">ข้อมูลทั่วไป <i class="fas fa-caret-down"></i></label>
+                <a href="#">ข้อมูลทั่วไป<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="./history.html">ประวัติ</a></li>
+                    <li>
+                        <label for="btn-3" class="show">บุคลากร <i class="fas fa-caret-down"></i></label>
+                        <a href="#">บุคลากร<i class="fas fa-caret-right" style="margin-left: 40px;"></i></a>
+                        <input type="checkbox" id="btn-3">
+                        <ul class="submenu">
+                            <li><a href="./personnel.html">ผู้บริหาร</a></li>
+                            <li><a href="./teacher.html">คณาอาจารย์</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-1" class="show">ข่าวสาร <i class="fas fa-caret-down"></i></label>
+                <a href="#">ข่าวสาร<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="./newsStd.html">ข่าวนักศึกษา</a></li>
+                    <li><a href="./newsPs.html">ข่าวบุคลากร</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-4" class="show">ผู้สนใจเข้าศึกษา <i class="fas fa-caret-down"></i></label>
+                <a href="#">ผู้สนใจเข้าศึกษา <i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-4">
+                <ul>
+                    <li>
+                        <label for="btn-5" class="show">หลักสูตร <i class="fas fa-caret-down"></i></label>
+                        <a href="#">หลักสูตร<i class="fas fa-caret-right" style="margin-left: 40px;"></i></a>
+                        <input type="checkbox" id="btn-5">
+                        <ul class="submenu">
+                            <li><a href="./course1.html">ระดับปริญญาตรี</a></li>
+                            <li><a href="./course2.html">ระดับปริญญาโท</a></li>
+                            <li><a href="./course3.html">ระดับปริญญาเอก</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./capital.html">ทุนการศึกษา</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-9" class="show">นักศึกษา <i class="fas fa-caret-down"></i></label>
+                <a href="#">นักศึกษา <i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-9">
+                <ul>
+                    <li><a href="./calender.html">ปฏิทินการศึกษา</a></li>
+                    <li><a href="./service.html">บริการนักศึกษา</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-6" class="show">งานวิจัย <i class="fas fa-caret-down"></i></label>
+                <a href="#">งานวิจัย<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-6">
+                <ul>
+                    <li><a href="./center.html">ศูนย์วิจัย กลุ่มวิจัย</a></li>
+                    <li><a href="./mou.html">ความร่วมมือmou</a></li>
+                </ul>
+            </li>
+            <li><a href="./contact.html">ติดต่อ</a></li>
+        </ul>
+    </nav>
+    <!-- breadcrumb -->
+    <ul class="breadcrumb">
+        <li>หน้าแรก</li>
+        <li>ข้อมูลทั่วไป</li>
+        <li class="active">ประวัติ</li>
+    </ul>
+    <!-- content -->
+    <div class="textbox">
+        <h2>
+            <span>ประวัติ</span>
+        </h2>
+        <img src="../images/sc06.png" alt="sc06">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="../images/computer_sc.jpg" alt="cs">
+            </div>
+            <div class="col-sm-6">
+                <p>สาขาวิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น จัดตั้งอย่างเป็นทางการเมื่อวันที่ 23 มีนาคม 2537 ผลิตบัณฑิตระดับปริญญาตรีมาแล้ว 21 รุ่น และปริญญาโทมาแล้วมากกว่า 10 รุ่น ปัจจุบันสาขาวิชาเปิดสอนหลักสูตรทั้งระดับปริญญาตรี ปริญญาโท
+                    และปริญญาเอก รวม 3 สาขาวิชา คือ สาขาวิชาวิทยาการคอมพิวเตอร์ สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร และสาขาวิชาภูมิสารสนเทศศาสตร์ มีจำนวนนักศึกษารวมประมาณ 1,600 คน แบ่งเป็นนักศึกษาระดับปริญญาตรี 1,300 คน และระดับปริญญาโท และปริญญาเอก
+                    300 คน มี อาจารย์ประจำ รวมทั้งสิ้น 37 คน และ อาจารย์ชาวต่างชาติสอนเสริมภาษาอังกฤษ 1 คนสาขาวิชาแบ่งงานวิจัยออกเป็น 5 กลุ่มวิจัย เพื่อรองรับนักศึกษาในการทำวิจัยให้มีความเชี่ยวชาญเฉพาะด้าน และผลิตผลงานวิจัยเพื่อตีพิมพ์ในวารสารทั้งระดับประเทศและระดับนานาชาติ
+                    และสาขาวิชามีห้องปฏิบัติการเพื่อรองรับการเรียนการสอนและการวิจัยทั้งสิ้น 12 ห้อง สาขาวิชาวิทยาการคอมพิวเตอร์ มีความมุ่งมั่นที่จะผลิตบัณฑิตที่มีคุณภาพ มีคุณธรรมจริยธรรม และมีความเชี่ยวชาญเฉพาะด้าน ตรงกับความต้องการของผู้ประกอบการ โดยความร่วมมือกับหน่วยงานภายนอกแบบไตรภาคี
+                    ประกอบด้วยสาขาวิชา (ผู้ผลิตบัณฑิต) บริษัทเจ้าของผลิตภัณฑ์ (ผู้จัดหาเครื่องมือ) และบริษัทซอฟต์แวร์ (ผู้ใช้บัณฑิต) ซึ่งทั้ง 3 องค์กรร่วมมือกันอย่างใกล้ชิด เพื่อผลิตบัณฑิตที่พึงประสงค์ อีกทั้งลงนามความร่วมมือกับหน่วยงานภายนอก เช่น สวทช
+                    เพื่อให้สาขาวิชาเป็นศูนย์สอบมาตรฐานวิชาชีพไอที (Information Technology Professional Examination—ITPE) และ ลงนามความร่วมมือกับ 12 สถาบันในภาคตะวันออกเฉียงเหนือ เพื่อร่วมมือพัฒนาบุคลากรและงานวิจัยด้าน IT</p>
+            </div>
+        </div>
+        <p class="topic">สถานที่ตั้ง</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>
+                    สาขาวิชาวิทยาการคอมพิวเตอร์ ตั้งอยู่ ณ อาคารวิทยาศาสตร์SC.06 ชั้น 3 คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น โทรศัพท์. 0-4336-2188-90 ต่อ 101-105 โทรสาร. 0-4334-2910
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="../images/sc09.jpg" alt="sc09">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 ">
+                <img src="../images/sc06_1.jpg " alt="sc06_1 ">
+            </div>
+            <div class="col-sm-6 " style="margin-top: 20px ; ">
+                <h1>ปรัชญา</h1>
+                <h3>วิทยา จริยา ปัญญา</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ">
+                <div class="imgz">
+                    <img src="../images/eye.png" alt="eye" class="iconz">
+                    <h3 class="color">วิสัยทัศน์</h3>
+                </div>
+                <p>
+                    สาขาวิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น มุ่งพัฒนาไปสู่หน่วยงานการศึกษาที่มีความเป็นเลิศ ที่จะผลิตบัณฑิตทั้งระดับปริญญาตรีและระดับบัณฑิตศึกษาทางด้านวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ เพื่อเป็นแหล่งความรู้และบริการวิชาการ แก่สังคมในภูมิภาคภาคตะวันออกเฉียงเหนือ
+                    ประเทศชาติและอนุภูมิภาคลุ่มน้ำโขง อันจะนำไปสู่มาตรฐานระดับสากล
+                </p>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="imgz">
+                    <img src="../images/target.png" alt="target" class="iconz">
+                    <h3 class="color">พันธกิจ</h3>
+                </div>
+                <p>
+                    มุ่งผลิตบัณฑิตทางด้านวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศที่เพียบพร้อมด้วยความรู้ สติปัญญา จริยธรรม การสอนวิชาพื้นฐานทางด้านวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศแก่นักศึกษาคณะต่างๆ ของมหาวิทยาลัยขอนแก่น การวิจัยเพื่อสร้างองค์ความรู้ให้เกิดการพัฒนาที่สมดุลและยั่งยืน
+                    การบริการวิชาการแก่สังคมในภาคตะวันออกเฉียงเหนือ และการเชื่อมโยงเครือข่ายความร่วมมือ และส่งเสริมทางวิชาการกับประเทศต่างๆ ในอนุภูมิภาคลุ่มน้ำโขงและภูมิภาคอื่น
+                </p>
+            </div>
+        </div><br>
+        <div class="last">
+            <h3 class="topic">วัตถุประสงค์</h3>
+            <ul class="last">
+                <li>ผลิตบัณฑิตและมหาบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ สาขาวิชาเทคโนโลยีสารสนเทศ และสาขาวิชาการรับรู้จากระยะไกลและสารสนเทศภูมิศาสตร์</li>
+                <li>ให้บริการจัดการเรียนการสอนรายวิชาพื้นฐานทางด้านคอมพิวเตอร์และเทคโนโลยีสารสนเทศแก่คณะวิชาต่างๆ ภายในมหาวิทยาลัยขอนแก่น</li>
+                <li>วิจัย ศึกษาค้นคว้า สร้างองค์ความรู้ให้เกิดการพัฒนา และนำความรู้ เทคโนโลยีไปประยุกต์ ถ่ายทอดในการพัฒนาศักยภาพของประเทศเพื่อการแข่งขัน</li>
+                <li>ให้บริการวิชาการ การวิเคราะห์ การให้คำปรึกษา การฝึกอบรม ทางด้านเทคโนโลยีสารสนเทศที่ทันสมัยต่อสังคม</li>
+                <li>ทำนุบำรุงศิลปวัฒนธรรม ด้วยการร่วมอนุรักษ์สิ่งที่ดีงามของสังคม และประยุกต์เทคโนโลยีใหม่ให้สอดคล้องต่อการอนุรักษ์ศิลปวัฒนธรรมของไทย</li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-4 ">
+                    <img src="../images/phone-call.png " alt=" logo phone " />
+                    <p>(+66)89-7102651</p>
+                </div>
+                <div class="col-sm-4 ">
+                    <img src="../images/email.png " alt=" logo phone " />
+                    <p>Cskku@kkumail.com</p>
+                </div>
+                <div class="col-sm-4 ">
+                    <img src="../images/pin.png " alt=" logo phone " />
+                    <p>อาคาร SC.06 คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น <br>123 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002
+                    </p>
+                </div>
+            </div>
+
+            <p> &copy; Computer Science Faculty of Science, Khon Kaen University. All Rights Reserved.</p>
+        </div>
+    </div>
+    <a href="#top " class="to_top "><i class="fas fa-angle-up "></i></a>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass(" cancel ");
+        });
+    </script>
+</body>
+
+</html>

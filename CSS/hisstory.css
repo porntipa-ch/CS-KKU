@@ -1,0 +1,102 @@
+.textbox h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #f8cb00;
+    line-height: 1px;
+    margin: 10px 0 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+h2 span {
+    background: #f2f2f2;
+    padding: 0 10px;
+    font-size: 90%;
+}
+
+.textbox img {
+    width: 100%;
+    height: 600px;
+}
+
+.textbox .row {
+    margin-top: 2%;
+}
+
+.textbox .row .col-sm-6 p {
+    text-indent: 40px;
+}
+
+.textbox p.topic {
+    font-size: 25px;
+    border-left: 3px solid#f8cb00;
+    padding-left: 5px;
+    margin-top: 1.5%;
+}
+
+.hisBox {
+    width: 100%;
+    background-color: #f8cb00;
+}
+
+.row .col-sm-6 h1 {
+    border-left: 3px solid #f8cb00;
+}
+
+h3.color {
+    color: #f8cb00;
+}
+
+img.iconz {
+    width: 10%;
+    height: 20%;
+}
+
+.imgz {
+    text-align: center;
+}
+
+.last {
+    text-align: center;
+}
+
+.last h3 {
+    width: 100%;
+    border-bottom: 3px solid #f8cb00;
+}
+
+ul.last {
+    text-align: left;
+    display: block;
+}
+
+@media all and (max-width: 968px) {
+    .textbox img {
+        width: 100%;
+        height: 200px;
+    }
+    .textbox .row .col-sm-6 img {
+        width: 100%;
+        height: 250px;
+    }
+    .textbox p.topic {
+        font-size: 20px;
+        border-left: 3px solid#f8cb00;
+        padding-left: 5px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .textbox h2 {
+        width: 100%;
+        text-align: center;
+        border-bottom: 3px solid #f8cb00;
+        line-height: 1px;
+        margin: 10px 0 20px;
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+    p,
+    li {
+        font-size: 19px;
+    }
+}

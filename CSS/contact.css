@@ -1,0 +1,89 @@
+.poster img {
+    width: 100%;
+    filter: brightness(0.5);
+    margin-top: 2%;
+}
+
+.contactus {
+    margin: 7% 0 3% 0;
+}
+
+.contactus #bordercol {
+    border-left: 2px solid#01447e;
+    border-right: 2px solid#01447e;
+}
+
+.contactus .col-sm-4 {
+    text-align: center;
+}
+
+.content.col-sm-4 p {
+    color: black;
+    font-size: 16px;
+}
+
+legend {
+    background-color: #01447e;
+}
+
+.contactHere,
+.contactHere1 {
+    text-align: center;
+    font-size: 20px;
+    color: #e6bb00;
+    margin: 2%;
+}
+
+.contactHere1 {
+    font-size: 18px;
+    color: black;
+}
+
+.content .row {
+    border: none;
+}
+
+.map {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+form input {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 8px;
+    padding-left: 10px;
+    height: 50px;
+    width: 60%;
+}
+
+form input[type=submit] {
+    padding: 0px;
+    background-color: #f8cb00;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    width: 150px;
+}
+
+iframe {
+    border-width: 0px;
+    width: 80%;
+}
+
+
+/* responsive */
+
+@media all and (max-width: 480px) {
+    .contactus #bordercol {
+        border-top: 2px solid#01447e;
+        border-bottom: 2px solid#01447e;
+        border-left: none;
+        border-right: none;
+    }
+}

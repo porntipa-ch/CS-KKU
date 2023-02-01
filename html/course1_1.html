@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../images/analytics.png">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/course.css">
+    <title>CS@KKU</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <nav>
+        <div class="logo">
+            <span style="color: #D2B363;">CS</span>@KKU
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="../index.html">หน้าแรก</a></li>
+            <li>
+                <label for="btn-2" class="show">ข้อมูลทั่วไป <i class="fas fa-caret-down"></i></label>
+                <a href="#">ข้อมูลทั่วไป<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="./history.html">ประวัติ</a></li>
+                    <li>
+                        <label for="btn-3" class="show">บุคลากร <i class="fas fa-caret-down"></i></label>
+                        <a href="#">บุคลากร<i class="fas fa-caret-right" style="margin-left: 40px;"></i></a>
+                        <input type="checkbox" id="btn-3">
+                        <ul class="submenu">
+                            <li><a href="./personnel.html">ผู้บริหาร</a></li>
+                            <li><a href="./teacher.html">คณาอาจารย์</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-1" class="show">ข่าวสาร <i class="fas fa-caret-down"></i></label>
+                <a href="#">ข่าวสาร<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="./newsStd.html">ข่าวนักศึกษา</a></li>
+                    <li><a href="./newsPs.html">ข่าวบุคลากร</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-4" class="show">ผู้สนใจเข้าศึกษา <i class="fas fa-caret-down"></i></label>
+                <a href="#">ผู้สนใจเข้าศึกษา <i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-4">
+                <ul>
+                    <li>
+                        <label for="btn-5" class="show">หลักสูตร <i class="fas fa-caret-down"></i></label>
+                        <a href="#">หลักสูตร<i class="fas fa-caret-right" style="margin-left: 40px;"></i></a>
+                        <input type="checkbox" id="btn-5">
+                        <ul class="submenu">
+                            <li><a href="./course1.html">ระดับปริญญาตรี</a></li>
+                            <li><a href="./course2.html">ระดับปริญญาโท</a></li>
+                            <li><a href="./course3.html">ระดับปริญญาเอก</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./capital.html">ทุนการศึกษา</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-9" class="show">นักศึกษา <i class="fas fa-caret-down"></i></label>
+                <a href="#">นักศึกษา <i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-9">
+                <ul>
+                    <li><a href="./calender.html">ปฏิทินการศึกษา</a></li>
+                    <li><a href="./service.html">บริการนักศึกษา</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-6" class="show">งานวิจัย <i class="fas fa-caret-down"></i></label>
+                <a href="#">งานวิจัย<i class="fas fa-caret-down" style="margin-left: 10px;"></i></a>
+                <input type="checkbox" id="btn-6">
+                <ul>
+                    <li><a href="./center.html">ศูนย์วิจัย กลุ่มวิจัย</a></li>
+                    <li><a href="./mou.html">ความร่วมมือmou</a></li>
+                </ul>
+            </li>
+            <li><a href="./contact.html">ติดต่อ</a></li>
+        </ul>
+    </nav>
+    <!-- breadcrumb -->
+    <ul class="breadcrumb">
+        <li>หน้าแรก</li>
+        <li>ผู้สนใจเข้าศึกษา</li>
+        <li>หลักสูตร</li>
+        <li>หลักสูตรระดับปริญญาตรี</li>
+        <li class="point">ภาควิชาเทคโนโลยีสารสนเทศ</li>
+    </ul>
+    <!-- content -->
+    <div class="textbox">
+        <img src="../images/it_tri.png" alt="it" class="image" style="width:100%">
+        <h2>
+            <span>
+                หลักสูตรระดับปริญญาตรี
+            </span>
+        </h2>
+
+        <button class="accordion">รายละเอียด</button>
+        <div class="panel">
+            <div class="inPanel">
+                <h5><img src="../images/book (1).png" alt="book"> ชื่อหลักสูตร</h5>
+                <p>ภาษาไทยวิทยาศาสตรบัณฑิต : สาขาวิชาวิทยาการคอมพิวเตอร์</p>
+                <p>ภาษาอังกฤษ : Bachelor of Science Program in Computer Science</p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/mortarboard.png" alt="hat"> ชื่อปริญญา</h5>
+                <p>
+                    ภาษาไทยวิทยาศาสตรบัณฑิต : (วิทยาการคอมพิวเตอร์) วท.บ. (วิทยาการคอมพิวเตอร์)
+                </p>
+                <p>
+                    ภาษาอังกฤษ : Bachelor of Science (Computer Science) B.Sc.(Computer Science)
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/university.png" alt="uni">หน่วยงานที่รับผิดชอบ</h5>
+                <p>
+                    ภาควิชาวิทยาการคอมพิวเตอร์คณะวิทยาศาสตร์มหาวิทยาลัยขอนแก่น
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/brain.png" alt="brain"> หลักการและเหตุผล</h5>
+                <p>
+                    ปัจจุบันโลกมีการพัฒนาเปลี่ยนแปลงและวิวัฒนาการทางด้านเทคโนโลยีอย่างรวดเร็ว องค์กรต่างๆ มีการนำเทคโนโลยีคอมพิวเตอร์และระบบสารนเทศต่างๆ เข้ามาใช้งานอย่างกว้างขวางมากขึ้นเพื่อสนับสนุนการปฏิบัติการในองค์กร รวมถึงการสกัดองค์ความรู้ต่างๆจากระบบสารสนเทศที่มีอยู่มาช่วยในการตัดสินใจในองค์กร
+                    สำหรับประเทศไทยได้มีการจัดทำแผนแม่บทเทคโนโลยีและการสื่อสารฉบับที่ 1 ระหว่างปี 2545 - 2549 และแผนแม่บทฉบับที่ 2 ระหว่างปี พ.ศ. 2550 – 2554 ได้มีการกำหนดยุทธศาสตร์การนำ ICT มาใช้ในการบริหารภาครัฐ และเอกชน สร้างมาตรฐานการวิจัย ที่มีศักยภาพต่อการพัฒนาประเทศ
+                    มุ่งเป็นองค์กรที่มีบุคลากรที่มีความพร้อมความสามารถ พัฒนาด้าน IT ให้อยู่ในกลุ่มประเทศที่มีศักยภาพในการเป็นผู้นำ มีการลงทุนในการพัฒนาทักษะกำลังคน ซึ่งนำไปสู่ความต้องการกำลังคนที่มีความสามารถในการดำเนินด้านวิทยาการคอมพิวเตอร์และสารสนเทศเพื่อสนับสนุนการดำเนินการดังกล่าว
+                    สำหรับมหาวิทยาลัยขอนแก่น มีหน้าที่และความรับผิดชอบในการดำเนินการจัดการศึกษาระดับอุดมศึกษา กำหนดนโยบายและจัดทำแผนการพัฒนามหาวิทยาลัยให้สอดคล้องกับนโยบายและแผนการพัฒนาประเทศ ในส่วนของภาควิชาวิทยาการคอมพิวเตอร์มีบุคลากรที่มีความรู้ความเชี่ยวชาญด้านวิทยาการคอมพิวเตอร์,
+                    เทคโนโลยีสารสนเทศและภูมิสารสนเทศศาสตร์ ที่พร้อมจะส่งเสริมและผลิตบัณฑิต ให้สอดคล้องกับภารกิจของภาควิชาวิทยาการคอมพิวเตอร์ ในการจัดการเรียนการสอนทั้งในระดับปริญญาตรี โท และระดับปริญญาเอก เพื่อผลิตบัณฑิตให้มีความรอบรู้วิชาการทั้งภาคทฤษฎี
+                    และภาคปฏิบัติ มีความสามารถในการใช้คอมพิวเตอร์และเทคโนโลยีสารสนเทศ มีความรู้ภาษาอังกฤษในระดับสื่อสาร มีความสามารถในการคิดและวิเคราะห์อย่างเป็นระบบ มีคุณธรรม จริยธรรม และรับผิดชอบต่อสังคม สอดคล้องกับความต้องการบุคลากรทางด้านวิทยาการคอมพิวเตอร์
+                    ทั้งภาครัฐและเอกชน
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/philosophy.png" alt="phi">ปรัชญา</h5>
+                <p>
+                    หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ เป็นหลักสูตรที่มุ่งหวังจะผลิตบัณฑิตที่มีความรู้ความสามารถทางด้านวิทยาการคอมพิวเตอร์ทั้งภาคทฤษฎีและภาคปฎิบัติ มีทักษะทางด้านคอมพิวเตอร์ตามความสนใจและศักยภาพส่วนบุคคล มีความสามารถในการคิดและวิเคราะห์ได้อย่างเป็นระบบ
+                    มีความคิดริเริ่มสร้างสรรค์ มีความสามารถทางวิชาการ มีความสนใจใฝ่หาความรู้ ศึกษาตลอดชีวิต สามารถนำความรู้ไปประยุกต์ใช้ได้อย่างเหมาะสม สามารถทำงานร่วมกับผู้อื่นได้ดี มีความรับผิดชอบต่อสังคม มีจิตสำนึกในคุณธรรม จริยธรรมและจรรยาบรรณ
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/tar.png" alt="tar">วัตถุประสงค์ของหลักสูตร</h5>
+                <p>
+                    หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ ฉบับเดิมเริ่มใช้เมื่อปี พ.ศ. 2536 ความจำเป็นต้องปรับปรุงใหม่ให้สอดคล้องกับความก้าวหน้าของวิทยาการด้านคอมพิวเตอร์ โดยมีวัตถุประสงค์ของหลักสูตร ดังนี้ เพื่อผลิตบัณฑิตระดับปริญญาตรี สาขาวิชาวิทยาการคอมพิวเตอร์ให้มีความรู้
+                    ความสามารถในการประกอบวิชาชีพด้านคอมพิวเตอร์และมีความพร้อมในด้านต่าง ๆ คือมีความคิดริเริ่ม สร้างสรรค์ สามารถติดตามความก้าวหน้าทางวิชาการอย่างต่อเนื่องมีความสำนึกใหม่ในหน้าที่รับผิดชอบต่อตนเองและสังคม มีมนุษยสัมพันธ์ที่ดี สามารถทำงานเป็นกลุ่มได้อย่างมีประสิทธิภาพมีทัศนคติที่ดีต่อวิชาชีพ
+                    มีคุณธรรมและจรรยาบรรณ
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/positive-vote.png" alt="pos">จุดเด่นหรือจุดแข็งของหลักสูตร</h5>
+                <p>
+                    หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ เป็นหลักสูตรที่สอดคล้องกับการใช้ชีวิตประจำวันของทุกคนในยุคปัจจุบัน ซึ่งเป็นยุคโลกาภิวัตน์หรือโลกไร้พรมแดนและมีการติดต่อสื่อสารข้อมูลผ่านระบบเครือข่ายโลก โดยทุกหน่วยงานทั้งภาครัฐและเอกชนจะเน้นการนำคอมพิวเตอร์และเทคโนโลยีสารสนเทศเข้ามาใช้งาน
+                    หลักสูตรนี้ยังเน้นการผลิตนักศึกษาในตำแหน่งงานที่ตลาดแรงงานต้องการเป็นจำนวนมาก ได้แก่ โปรแกรมเมอร์ นักวิเคราะห์ระบบ ผู้ดูแลระบบเครือข่าย นักวิศวกรซอฟต์แวร์ ผู้บริหารโครงการซอฟต์แวร์ นักวิจัย บุคลากรด้าน Graphics Multimedia และส่วนมากบัณฑิตที่สำเร็จการศึกษาหลักสูตรฯ
+                    นี้ มีงานทำ 100% และได้รับเงินเดือนสูงกว่าสาขาวิชาอื่น นอกจากนี้หลักสูตรยังให้ความสำคัญกับแนวคิดทางปรัชญา ซึ่งจะทำให้นักศึกษามีความคิดและวิเคราะห์ได้อย่างเป็นระบบ มีความสามารถทางวิชาการ มีความรับผิดชอบต่อสังคม มีจิตสำนึกในคุณธรรม จริยธรรมและจรรยาบรรณ
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/calendar.png" alt="cal">กำหนดการเปิดสอน</h5>
+                <p>จะเปิดดำเนินการเรียนการสอนหลักสูตรนี้ ตั้งแต่ภาคการศึกษาต้น ปีการศึกษา 2555 เป็นต้นไป</p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/curriculum.png" alt="cur">คุณสมบัติของผู้เข้าศึกษา</h5>
+                <p>คุณสมบัติของผู้เข้าศึกษา</p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/qualification.png" alt="qua">การคัดเลือกผู้เข้าศึกษา</h5>
+                <p> ให้เป็นไปตามระเบียบมหาวิทยาลัยขอนแก่น ว่าด้วยการศึกษาขั้นปริญญาตรี พ.ศ. 2548 หมวดที่ 2 ข้อ 8 หรือเป็นไปตามระเบียบมหาวิทยาลัยขอนแก่นที่ปรับปรุงใหม่
+                </p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/user.png" alt="user">จำนวนที่รับเข้า</h5>
+                <p>ทั้งหมด 80 คน</p>
+            </div>
+            <div class="inPanel">
+                <h5><img src="../images/hbook.png" alt="hb">วิชาที่สอบ</h5>
+                <table border="1" class="inPanel">
+                    <tr>
+                        <th>วิชา</th>
+                        <th>สัดส่วนคะแนน</th>
+                    </tr>
+                    <tr>
+                        <td>ภาษาอังกฤษ</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>คณิตศาสตร์ 1</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>เคมี</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>ฟิสิกส์</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>รวม</td>
+                        <td>100</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </div>
+
+        <button class="accordion">โครงสร้างหลักสูตร</button>
+        <div class="panel">
+            <div class="inPanel">
+                <p>นักศึกษาจะต้องมีจำนวนหน่วยกิตรวมตลอดหลักสูตร ไม่น้อยกว่า 137 หน่วยกิต นักศึกษาที่จะสำเร็จการศึกษาได้จะต้องผ่านวิชาสหกิจศึกษาหรือวิชาโครงงานคอมพิวเตอร์ และผ่านการฝึกงาน
+                </p>
+                <table border="1" class="inPanel">
+                    <tr>
+                        <th>หมวดวิชาศึกษาทั่วไป</th>
+                        <th style="width: 30%;"></th>
+                        <th>30 หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชาภาษา</td>
+                        <td style="width: 30%;"></td>
+                        <td> 12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชามนุษยศาสตร์และสังคมศาสตร์</td>
+                        <td style="width: 30%;"></td>
+                        <td> 3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชาวิทยาศาสตร์และคณิตศาสตร์</td>
+                        <td style="width: 30%;"></td>
+                        <td> 15 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <th>หมวดวิชาเฉพาะ</th>
+                        <th style="width: 30%;"></th>
+                        <th>101 หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชาพื้นฐานวิชาชีพ</td>
+                        <td style="width: 30%;"></td>
+                        <td> 28 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชาบังคับ</td>
+                        <td style="width: 30%;"></td>
+                        <td>52 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>1.กลุ่มวิชาชีพ</td>
+                        <td style="width: 30%;"></td>
+                        <td>46 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2.กลุ่มวิชาฝึกงานและสหกิจศึกษา</td>
+                        <td style="width: 30%;"></td>
+                        <td>6 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>- กลุ่มวิชาเลือก</td>
+                        <td style="width: 30%;"></td>
+                        <td>21 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <th>หมวดวิชาเลือกเสรี</th>
+                        <th style="width: 30%;">ไม่น้อยกว่า</th>
+                        <th>6 หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <th>รวมทั้งหมด</th>
+                        <th style="width: 30%;"></th>
+                        <th>137 หน่วยกิต</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <button class="accordion">แผนการศึกษา</button>
+        <div class="panel">
+            <a href="https://www.cs.kku.ac.th/index.php/th/education/curriculum/curriculum-bachelor-s-degree/2017-11-20-03-51-27-5#%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2">
+                <h1>ดูรายละเอียด</h1>
+            </a>
+        </div>
+        <button class="accordion">รายวิชาที่เปิดสอน</button>
+        <div class="panel">
+            <a href="https://www.cs.kku.ac.th/index.php/th/education/curriculum/curriculum-bachelor-s-degree/2017-11-20-03-51-27-5#%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%99">
+                <h1>ดูรายละเอียด</h1>
+            </a>
+        </div>
+        <hr>
+        <p>Last modified on วันพุธ, 07 สิงหาคม 2562 08:28</p>
+
+
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-4 ">
+                    <img src="../images/phone-call.png " alt=" logo phone " />
+                    <p>(+66)89-7102651</p>
+                </div>
+                <div class=" col-sm-4 ">
+                    <img src="../images/email.png " alt=" logo phone " />
+                    <p>Cskku@kkumail.com</p>
+                </div>
+                <div class=" col-sm-4 ">
+                    <img src="../images/pin.png " alt=" logo phone " />
+                    <p>อาคาร SC.06 คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น <br>123 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002
+                    </p>
+                </div>
+            </div>
+
+            <p> &copy; Computer Science Faculty of Science, Khon Kaen University. All Rights Reserved.</p>
+        </div>
+    </div>
+    <a href="#top " class="to_top "><i class="fas fa-angle-up "></i></a>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass(" cancel ");
+        });
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
